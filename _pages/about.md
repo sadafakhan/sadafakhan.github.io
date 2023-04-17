@@ -18,8 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-I'm Sadaf, and I'm a computational linguist looking for work in Natural Language Processing (NLP)! 
+Hello, I'm Sadaf (/sʌd̪əf/), and I'm a computational linguist looking for work in Natural Language Processing (NLP)! 
 
 I graduated with an M.Sc. in Computational Linguistics from the University of Washington in Dec. 2022, and completed a B.A. in Linguistics and Cognitive Science (with a Computer Science concentration) from Pomona College in May 2020. 
 
