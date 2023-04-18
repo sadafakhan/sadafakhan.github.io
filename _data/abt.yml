@@ -6,6 +6,7 @@
       year: 2022
       description:
         - 3.89 GPA
+        - [transcript](/assets/pdf/example_pdf.pdf)
         - title: Relevant Projects
           contents:
             - Interactive Pashto Correction Tool
