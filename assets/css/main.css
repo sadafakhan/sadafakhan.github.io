@@ -168,6 +168,7 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  font-size: 0.75rem;
 }
 .card img {
   width: 100%;
