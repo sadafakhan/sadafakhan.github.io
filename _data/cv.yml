@@ -31,35 +31,29 @@
 # - title: Experience
 - type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Machine Learning Intern
+      institution: Hi-Rez Studios
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Implemented machine translation pipeline on chatlog data to detect and reduce in-game non-English toxicity using transformers through HuggingFace
+        - Executed and researched subcomponents from language detection to future-proofing
+        - Worked with TeamCity, Spark, Hadoop, and Perforce for deployment
+        - Conducted sentiment analysis across chatlog to map player experience of game updates, using BERT models (SiEBERT, Twitter-roBERTa, DistilBERT)
+    
+    - title: Technical Writer
+      institution: SecureAuth Corp.
+      year: 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Research the latest publications on IAM/CIAM, AI/ML-powered anomaly detection, and authentication Develop and publish cybersecurity articles, company FAQ, product documentation (user guides, network reports, etc.), and marketing documents (eBooks, white papers, etc.)
+        - Communicate and post company views on cybersecurity issues by working closely with the CEO, Sales/Marketing, & Development
+        - Done in parallel to Master's program
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: The Wild Voice, Inc. 
+      year: 2020 - 2021
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Researched and fact-checked sociolinguistic phenomena for dialect coach Samara Bay's upcoming book Permission to Speak on projecting authority
+        - Formulated interview questions for host Samara Bay to utilize within upcoming episodes on iHeartRadio's Permission to Speak
 
 # - title: Open Source Projects
 #   type: time_table

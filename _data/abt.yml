@@ -8,6 +8,7 @@
         - 3.89 GPA, <a href="/assets/pdf/UW_transcript.pdf">transcript</a>
         - title: Relevant Projects
           contents:
+          # TODO: add links to repos for these
             - Interactive Pashto Correction Tool
             - Sarcasm Detection in Tweets 
     - title: B.A. in Linguistics and Cognitive Science, concentration in Computer Science
