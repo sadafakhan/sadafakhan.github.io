@@ -15,21 +15,21 @@
       year: 2020
       description:
         - 3.72 (cumulative), 3.87 (major) GPA, <a href="/assets/pdf/Pomona_transcript.pdf">transcript</a>
-        - title: Theses
+        - title: Thesis Projects
           contents:
             - Zabaan; Vowel Drift from Classical Persian in Urdu and Tehrani Farsi
             - Psychological Realities of Embedded Recursion
 
 
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Machine Translation.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Automated Speech Recognition.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Machine Translation.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Automated Speech Recognition.
+#       items:
+#         - Description 1.
+#         - Description 2.
