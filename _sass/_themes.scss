@@ -7,7 +7,7 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #5C3E47;
   --global-text-color-light: #92B564;
-  --global-theme-color: #C46F6F;
+  --global-theme-color: #d66e6e;
   --global-hover-color: #92B564;
   --global-footer-bg-color: #856D5D;
   --global-footer-text-color: #D6D4C2;
@@ -38,14 +38,14 @@ html[data-theme='dark'] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #D6D4C2;
   --global-text-color-light: #92B564;
-  --global-theme-color: #C46F6F;
+  --global-theme-color: #e78585;
   --global-hover-color: #92B564;
   --global-footer-bg-color: #856D5D;
   --global-footer-text-color: #D6D4C2;
   --global-footer-link-color: #92B564;
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #92B564;
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #856D5D;
 
   .fa-sun {
     padding-left: 10px;
