@@ -1,0 +1,48 @@
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.Sc. in Computational Linguistics
+      institution: University of Washington, Seattle, WA 
+      year: 2022
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: B.A. in Linguistics and Cognitive Science, concentration in Computer Science
+      institution: Pomona College, Claremont, CA 
+      year: 2020
+      description:
+        - Description 1.
+        - Description 2.
+
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Machine Translation.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Automated Speech Recognition.
+      items:
+        - Description 1.
+        - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
