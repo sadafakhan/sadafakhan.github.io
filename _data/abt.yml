@@ -5,8 +5,7 @@
       institution: University of Washington, Seattle, WA 
       year: 2022
       description:
-        - 3.89 GPA
-        - [transcript](/assets/pdf/example_pdf.pdf)
+        - 3.89 GPA, <a href="/assets/pdf/UW_transcript.pdf">transcript</a>
         - title: Relevant Projects
           contents:
             - Interactive Pashto Correction Tool
@@ -15,8 +14,11 @@
       institution: Pomona College, Claremont, CA 
       year: 2020
       description:
-        - 3.72 (cumulative), 3.87 (major) GPA
-        - Description 2.
+        - 3.72 (cumulative), 3.87 (major) GPA, <a href="/assets/pdf/Pomona_transcript.pdf">transcript</a>
+        - title: Theses
+          contents:
+            - Zabaan; Vowel Drift from Classical Persian in Urdu and Tehrani Farsi
+            - Psychological Realities of Embedded Recursion
 
 
 
