@@ -1,0 +1,25 @@
+- type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Harvard University
+      year: 2019
+      description:
+        - Studied The Development of Recursive Structures in 3-6 years old with Dr. Stephen Ferrigno for 10 weeks, now published as Recursive sequence generation in monkeys, children, US adults, and native Amazonians in Science Advances 6(26).
+        - Recruited & scheduled participants, ran trials on children, organized lab protocols, led lab meetings
+        - Studied employment of queue vs. pushdown stack models on center-embedded & cross-serial structures
+        - Analyzed data of 40 recruited participants on R, found results corroborating hypothesis (p < .0001)
+    
+    - title: Technical Writer
+      institution: SecureAuth Corp.
+      year: 2020 - Present
+      description:
+        - Research the latest publications on IAM/CIAM, AI/ML-powered anomaly detection, and authentication Develop and publish cybersecurity articles, company FAQ, product documentation (user guides, network reports, etc.), and marketing documents (eBooks, white papers, etc.)
+        - Communicate and post company views on cybersecurity issues by working closely with the CEO, Sales/Marketing, & Development
+        - Done in parallel to Master's program
+
+    - title: Research Assistant
+      institution: The Wild Voice, Inc. 
+      year: 2020 - 2021
+      description:
+        - Researched and fact-checked sociolinguistic phenomena for dialect coach Samara Bay's upcoming book Permission to Speak on projecting authority
+        - Formulated interview questions for host Samara Bay to utilize within upcoming episodes on iHeartRadio's Permission to Speak
