@@ -36,15 +36,18 @@
       year: 2022
       description:
         - Implemented machine translation pipeline on chatlog data to detect and reduce in-game non-English toxicity using transformers through HuggingFace
+        # - (NLLB, M2M, mBART, mT5, fasttext) through HuggingFace
         - Executed and researched subcomponents from language detection to future-proofing
         - Worked with TeamCity, Spark, Hadoop, and Perforce for deployment
         - Conducted sentiment analysis across chatlog to map player experience of game updates, using BERT models (SiEBERT, Twitter-roBERTa, DistilBERT)
+        - Done for credit towards Master's program
     
     - title: Technical Writer
       institution: SecureAuth Corp.
       year: 2020 - Present
       description:
-        - Research the latest publications on IAM/CIAM, AI/ML-powered anomaly detection, and authentication Develop and publish cybersecurity articles, company FAQ, product documentation (user guides, network reports, etc.), and marketing documents (eBooks, white papers, etc.)
+        - Research the latest publications on IAM/CIAM, AI/ML-powered anomaly detection, and authentication 
+        - Develop and publish cybersecurity articles, company FAQ, product documentation (user guides, network reports, etc.), and marketing documents (eBooks, white papers, etc.)
         - Communicate and post company views on cybersecurity issues by working closely with the CEO, Sales/Marketing, & Development
         - Done in parallel to Master's program
 

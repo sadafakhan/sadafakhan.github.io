@@ -2,6 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# note to self: going forward, just comment out old/archived entries in employment and so on; can save the info anyhow, this way
+
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sadaf
 middle_name: A.
