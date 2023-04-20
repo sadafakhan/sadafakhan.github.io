@@ -9,8 +9,14 @@
         - title: Relevant Projects
           contents:
           # TODO: add links to repos for these
-            - Interactive Pashto Correction Tool
-            - Sarcasm Detection in Tweets 
+            - Interactive Pashto Pronunciation Feedback
+            - <a href="https://github.com/sadafakhan/sarcasm-detection"> Sarcasm Detection in Tweets</a> 
+        - title: Relevant Coursework
+          contents: 
+            - Advanced Statistical Methods in NLP
+            - NLP Systems and Applications
+            - Speech Technologies and Endangered Languages
+
     - title: B.A. in Linguistics and Cognitive Science, concentration in Computer Science
       institution: Pomona College, Claremont, CA 
       year: 2020
@@ -20,6 +26,12 @@
           contents:
             - <a href="/assets/pdf/Zabaan.pdf">Zabaan; Vowel Drift from Classical Persian in Urdu and Tehrani Farsi</a>
             - <a href="/assets/pdf/Embedded_Recursion.pdf">Psychological Realities of Embedded Recursion</a>
+        - title: Relevant Coursework  
+          contents: 
+            - Theory of Computation and Automata
+            - Advanced Phonology 
+            - Data Structures / Advanced Programming
+        
 
 # - title: Academic Interests
 #   type: nested_list

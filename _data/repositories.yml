@@ -1,11 +1,17 @@
 # github_users:
 #   - sadafakhan
 
+# TODO: update repositories 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sadafakhan/sarcasm-detection
+  - sadafakhan/cyk
+  - sadafakhan/on_disk_sort
+  - sadafakhan/dist_semantics
+  - sadafakhan/coherence_relations
+  - sadafakhan/word_sense_disambiguation
+  - sadafakhan/feature_vectors
+  - sadafakhan/ngram_lm
+  - sadafakhan/automata
+  - sadafakhan/functional_prog
+  - sadafakhan/compression
+
