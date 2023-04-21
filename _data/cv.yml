@@ -36,8 +36,8 @@
       year: 2022
       description:
         - Implemented machine translation pipeline on chatlog data to detect and reduce in-game non-English toxicity using transformers through HuggingFace
-        # - (NLLB, M2M, mBART, mT5, fasttext) through HuggingFace
-        - Executed and researched subcomponents from language detection to future-proofing
+        - Experimented with latest machine translation models (NLLB, M2M, mBART, mT5, fasttext, and more)
+        - Executed and researched subcomponents from language detection to future-proofing within an Agile framework
         - Worked with TeamCity, Spark, Hadoop, and Perforce for deployment
         - Conducted sentiment analysis across chatlog to map player experience of game updates, using BERT models (SiEBERT, Twitter-roBERTa, DistilBERT)
         - Done for credit towards Master's program

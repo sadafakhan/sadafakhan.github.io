@@ -31,6 +31,37 @@
             - Theory of Computation and Automata
             - Advanced Phonology 
             - Data Structures / Advanced Programming
+
+- title: Programming Languages and Softwares
+  type: time_table
+  contents:
+    - year: Proficient
+      description:
+        - title: Python
+          contents: 
+            - pytorch
+            - tensorflow
+            - keras
+            - trax
+            - sklearn
+            - nltk 
+        - Java
+        - title: Version control
+          contents: 
+            - Git
+            - Perforce 
+
+    - year: Familiar
+      description:
+        - Haskell
+        - OCaml
+        - Bash
+        - SQL
+        - title: Deployment
+          contents: 
+            - Apache Hadoop 
+            - Apache Spark 
+            - TeamCity 
         
 
 # - title: Academic Interests
