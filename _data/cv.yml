@@ -8,26 +8,6 @@
 #     - name: Languages
 #       value: English, German
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: M.Sc. in Computational Linguistics
-#       institution: University of Washington, Seattle, WA USA
-#       year: 2022
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: B.A. in Linguistics and Cognitive Science, concentration in Computer Science
-#       institution: Pomona College, Claremont, CA USA
-#       year: 2020
-#       description:
-#         - Description 1.
-#         - Description 2.
-
 # - title: Experience
 - type: time_table
   contents:
@@ -55,9 +35,8 @@
       institution: The Wild Voice, Inc. 
       year: 2020 - 2021
       description:
-        - Researched and fact-checked sociolinguistic phenomena for dialect coach Samara Bay's upcoming book Permission to Speak on projecting authority
-        - Formulated interview questions for host Samara Bay to utilize within upcoming episodes on iHeartRadio's Permission to Speak
-
+        - Researched and fact-checked sociolinguistic phenomena for dialect coach Samara Bay's upcoming book <a href="https://www.penguinrandomhouse.com/books/667566/permission-to-speak-by-samara-bay/">Permission to Speak</a> on projecting authority
+        - Formulated interview questions for host Samara Bay to utilize within upcoming episodes on <a href="https://podcasts.apple.com/us/podcast/permission-to-speak/id1491356006">iHeartRadio's Permission to Speak</a>
 # - title: Open Source Projects
 #   type: time_table
 #   contents:
