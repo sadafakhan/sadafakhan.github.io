@@ -1,6 +1,16 @@
 - title: Education
   type: time_table
   contents:
+    - title: NLP Specialization
+      institution: DeepLearning.AI
+      year: 2023
+      description: 
+        - <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/VEKMCXJTXPRR">certificate</a> 
+        - title: Relevant Coursework
+          contents: 
+            - NLP with Sequence Models
+            - NLP with Attention Models
+
     - title: M.Sc. in Computational Linguistics
       institution: University of Washington, Seattle, WA 
       year: 2022
@@ -8,9 +18,8 @@
         - 3.89 GPA, <a href="/assets/pdf/UW_transcript.pdf">transcript</a>
         - title: Relevant Projects
           contents:
-          # TODO: add links to repos for these
-            - Interactive Pashto Pronunciation Feedback
-            - <a href="https://github.com/sadafakhan/sarcasm-detection"> Sarcasm Detection in Tweets</a> 
+            - <a href="https://github.com/sadafakhan/pronunciation-scorer"> Interactive Pashto Pronunciation Feedback</a> 
+            - <a href="https://github.com/sadafakhan/sarcasm-detection-twit"> Sarcasm Detection in Tweets</a> 
         - title: Relevant Coursework
           contents: 
             - Advanced Statistical Methods in NLP
@@ -32,36 +41,42 @@
             - Advanced Phonology 
             - Data Structures / Advanced Programming
 
-- title: Programming Languages and Softwares
+- title: Skills
   type: time_table
   contents:
-    - year: Proficient
+    - year: Techniques
+      description:
+        - Machine Translation 
+        - Automatic Speech Recognition 
+        - Assistive Technology 
+        - Machine Learning 
+        - Deep Learning
+    - year: Software
       description:
         - title: Python
           contents: 
             - pytorch
-            - tensorflow
             - keras
+            - tensorflow
             - trax
+            - numpy
+            - pandas
             - sklearn
-            - nltk 
+            - NLTK 
         - Java
-        - title: Version control
-          contents: 
-            - Git
-            - Perforce 
-
-    - year: Familiar
-      description:
-        - Haskell
-        - OCaml
-        - Bash
         - SQL
-        - title: Deployment
-          contents: 
-            - Apache Hadoop 
-            - Apache Spark 
-            - TeamCity 
+        - Git
+        - Agile Development 
+        - TeamCity
+        - Spark
+        - Hadoop
+        - Perforce
+        - Bash
+
+    - year: Languages
+      description:
+        - English (native)
+        - Hindi (working)
         
 
 # - title: Academic Interests
