@@ -11,15 +11,23 @@
 # - title: Experience
 - type: time_table
   contents:
+    - title: Generative AI/LLM Data Scientist
+      institution: Nvidia Corp. 
+      year: 2023 - PRESENT
+      description: 
+        - Manage annotation tooling by restructuring data, formatting labelling schema, debugging and deploying projects via platform SDKs/APIs per researcher requests
+        - Designing and leading LLM human red teaming for NeMo 340B via NeMo Guardrails and garak
+        - Produced and evaluated synthetic negatives for Retrieval-Augmented Generation (RAG) models
+
+
     - title: Technical Writer
       institution: SecureAuth Corp.
-      year: 2020 - Present
+      year: 2020 - 2023
       description:
-        - Research the latest publications on AI/ML-powered anomaly detection and authentication in cybersecurity
-        - Develop and publish IAM/CIAM <a href="https://www.secureauth.com/resource-center/ebooks/">eBooks</a>, <a href="https://www.secureauth.com/resource-center/white-papers/">white papers</a>, and blogs with CTO Architect product FAQ and product documentation (user guides, network reports, etc.) 
-        - Implement FAQ chatbot using chatGPT 
-        - Done in parallel to Master's program 
-
+        - Researched the latest publications on AI/ML-powered anomaly detection and authentication in cybersecurity
+        - Published IAM/CIAM eBooks, white papers, and blogs with CTO
+        - Architected product FAQ and product documentation (user guides, network reports, etc.)
+        - Done in parallel to Master's program
     
     - title: Machine Learning Intern
       institution: Hi-Rez Studios
