@@ -18,10 +18,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hello, I'm Sadaf (/sʌd̪əf/), and I'm a computational linguist looking for work in Natural Language Processing (NLP)! 
+Hello, I'm Sadaf (/sʌd̪əf/), and I'm a computational linguist! I am particularly interested in <b>machine translation</b> and <b>automated speech recognition (ASR)</b>, especially as they relate to <b>second language acquisition (SLA)</b>, <b>multilingual input</b>, and <b> assistive technology</b>. 
 
-I love studying linguistics, and am eager to use computational methods to examine linguistic phenomena. I am particularly drawn to <b>machine translation</b> and <b>automated speech recognition (ASR)</b>, especially as they relate to <b>second language acquisition (SLA)</b>, <b>multilingual input</b>, and <b> assistive technology</b>. 
-
+In my free time, I draw and roller skate :) 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
