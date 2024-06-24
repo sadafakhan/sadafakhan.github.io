@@ -12,11 +12,11 @@
 - type: time_table
   contents:
     - title: Generative AI/LLM Data Scientist
-      institution: Nvidia Corp. 
+      institution: NVIDIA
       year: 2023 - PRESENT
       description: 
-        - Manage annotation tooling by restructuring data, formatting labelling schema, debugging and deploying projects via platform SDKs/APIs per researcher requests
-        - Designing and leading LLM human red teaming for NeMo 340B via NeMo Guardrails and garak
+        - Lead LLM human content safety red teaming for NeMotron models 
+        - Developed annotation tooling by restructuring data, formatting labelling schema, debugging and deploying via platform SDKs and APIs per researcher requests
         - Produced and evaluated synthetic negatives for Retrieval-Augmented Generation (RAG) models
 
 
@@ -39,7 +39,6 @@
         - Conducted sentiment analysis across chatlog to map player experience of game updates, using BERT models (SiEBERT, Twitter-roBERTa, DistilBERT) 
 
     
-
     - title: Research Assistant
       institution: The Wild Voice, Inc. 
       year: 2020 - 2021

@@ -1,6 +1,15 @@
 - type: time_table
   contents:
-    - title: Research Assistant
+    - title: Nemotron-4 340B Technical Report
+      institution: NVIDIA
+      year: 2024
+      description:
+        - Published as <a href="https://arxiv.org/abs/2406.11704v1">Nemotron-4 340B Technical Report</a>
+        - Designed human content safety red teaming procedure in PRD, in concert with automated red teaming (garak) and safety evaluation (AEGIS)
+        - Recruited, trained, and proctored red teamers
+        - Analyzed log results with AI Safety team, drafted 340B's model card to include pertinent outcomes
+
+    - title: Recursive sequence generation in monkeys, children, US adults, and native Amazonians
       institution: Harvard University Laboratory of Developmental Studies
       year: 2019
       description:
