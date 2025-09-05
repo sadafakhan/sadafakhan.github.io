@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: new_prof.png
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
@@ -18,13 +18,10 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hello, I'm Sadaf (/sʌd̪əf/), and I'm a computational linguist! I am particularly interested in <b>AI safety</b>, <b>machine translation</b>, and <b>automated speech recognition (ASR)</b>, especially as they relate to <b>second language acquisition (SLA)</b>, <b>multilingual input</b>, and <b> assistive technology</b>. 
+Hi all! I'm Sadaf (/sʌd̪əf/), and I'm a linguist in the AI space! I'm particularly interested in <b>AI safety</b>, <b>machine translation</b>, and <b>automated speech recognition (ASR)</b>, especially in relation to second language acquisition (SLA), multilingual input, and assistive technology. 
 
 
-<a href="https://scholar.google.com/citations?user=SF7pUdIAAAAJ&hl=en&oi=sra">Google Scholar page.</a>
-
-
-In my free time, I draw 🎨, climb 🧗🏽, and roller skate 🛼 :D 
+In my free time, I draw, write, eat peaches, and galavant in the Sierra Nevadas (pictured right) hiking and climbing. 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
