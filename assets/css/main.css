@@ -6,18 +6,18 @@
  * Themes
  ******************************************************************************/
 :root {
-  --global-bg-color: #ffffff;
-  --global-code-bg-color:#ffffff ;
+  --global-bg-color: #fff9db;
+  --global-distill-app-color: #fff9db;
+  --global-card-bg-color: #fff9db;
+  --global-code-bg-color:#fff9db;
   --global-text-color: #272727;
-  --global-text-color-light: #b83a51;
-  --global-theme-color: #b83a51;
-  --global-hover-color: #f09c34;
-  --global-footer-bg-color: #f09c34;
-  --global-footer-text-color: #272727;
-  --global-footer-link-color: #b83a51;
-  --global-distill-app-color: #828282;
-  --global-divider-color: #f09c34;
-  --global-card-bg-color: #ffffff;
+  --global-text-color-light: #a0260d;
+  --global-theme-color: #a0260d;
+  --global-hover-color: #224a01;
+  --global-footer-bg-color: #224a01;
+  --global-divider-color: #224a01;
+  --global-footer-text-color: #ffffff;
+  --global-footer-link-color: #ffffff;
 }
 :root .fa-sun {
   display: none;
@@ -169,6 +169,7 @@ blockquote {
 .card {
   background-color: var(--global-card-bg-color);
   font-size: 0.75rem;
+  box-shadow: none !important;
 }
 .card img {
   width: 100%;
