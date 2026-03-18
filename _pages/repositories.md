@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /repositories/
 title: repositories
@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 <!-- ## GitHub users -->
-
+<!-- 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -35,10 +35,10 @@ nav_order: 5
 
 <!-- ## GitHub Repositories -->
 
-{% if site.data.repositories.github_repos %}
+<!-- {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
-{% endif %}
+{% endif %} --> --> -->

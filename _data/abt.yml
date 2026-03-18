@@ -78,15 +78,3 @@
         - English (native)
         - Hindi (working)
         
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Machine Translation.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Automated Speech Recognition.
-#       items:
-#         - Description 1.
-#         - Description 2.
