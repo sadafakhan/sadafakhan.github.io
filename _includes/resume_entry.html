@@ -1,0 +1,31 @@
+<div class="resume-entry"
+     data-tags="{% if entry.tags %}{% for tag in entry.tags %}{{ tag | downcase }} {% endfor %}{% endif %}">
+  <div class="resume-entry-header">
+    <div class="resume-entry-title">{{ entry.title }}</div>
+    <div class="resume-entry-year">{{ entry.year }}</div>
+  </div>
+
+  <div class="resume-entry-subheader">
+    <div class="resume-entry-organization"><em>{{ entry.organization }}</em></div>
+    <div class="resume-entry-location"><em>{{ entry.location }}</em></div>
+  </div>
+
+  {% if entry.description %}
+    <ul class="resume-entry-bullets">
+      {% for item in entry.description %}
+        {% if item.title and item.contents %}
+          <li class="resume-entry-subsection">
+            <span class="resume-entry-subsection-title">{{ item.title }}</span>
+            <ul class="resume-entry-sub-bullets">
+              {% for subitem in item.contents %}
+                <li>{{ subitem }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% else %}
+          <li>{{ item }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

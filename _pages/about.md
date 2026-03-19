@@ -16,10 +16,9 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 Hi all! I'm Sadaf (/sʌd̪əf/), and I'm a linguist in the AI/ML space! I'm particularly interested in <b>AI safety</b>, <b>machine translation</b>, and <b>automated speech recognition (ASR)</b>, especially in relation to second language acquisition (SLA), multilingual input, and assistive technology. 
-
 
 In my free time, I draw, eat peaches, climb, and hike. 
 

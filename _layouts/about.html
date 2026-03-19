@@ -40,39 +40,47 @@ layout: default
             {{ content }}
           </div>
 
-        <!-- i put this in to add the education segment to the about -->
-        <div class="post">
+          <!-- Custom section to create filterable list of experiences -->
+          
+          {% if site.data.experiences %}
+            <h2 class="resume-section-title">Experience</h2>
 
-          <header class="post-header">
-            <!-- <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1> -->
-            <!-- <p class="post-description">{{ page.description }}</p> -->
-          </header>
+            <div class="resume-filters">
+              <button class="resume-filter active" data-filter="all">All</button>
+              <button class="resume-filter" data-filter="employment">Employment</button>
+              <button class="resume-filter" data-filter="research">Research</button>
+            </div>
 
-          <article>
-            <div class="cv">
-              {% for entry in site.data.abt %}
-                <div class="card mt-3 p-3">
-                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-                  <div>
-                  {% if entry.type == "list" %}
-                    {% include cv/list.html %}
-                  {% elsif entry.type == "map" %}
-                    {% include cv/map.html %}
-                  {% elsif entry.type == "nested_list" %}
-                    {% include cv/nested_list.html %}
-                  {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
-                  {% else %}
-                    {{ entry.contents }}
-                  {% endif %}
-                  </div>
-                </div>
+            <div class="resume-section">
+              {% assign items = site.data.experiences %}
+              {% for entry in items %}
+                {% include resume_entry.html entry=entry %}
               {% endfor %}
-              </div>
-          </article>
+            </div>
 
-        </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                const buttons = document.querySelectorAll(".resume-filter");
+                const entries = document.querySelectorAll(".resume-entry");
 
+                buttons.forEach(button => {
+                  button.addEventListener("click", function () {
+                    const filter = this.dataset.filter;
+
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    this.classList.add("active");
+
+                    entries.forEach(entry => {
+                      const tags = (entry.dataset.tags || "").split(" ").filter(Boolean);
+                      const visible = filter === "all" || tags.includes(filter);
+                      entry.style.display = visible ? "" : "none";
+                    });
+                  });
+                });
+              });
+            </script>
+          {% endif %}
+      
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
