@@ -51,10 +51,10 @@ layout: default
               window.scrollTo(0, 0);
             });
           </script>
-          
+
           {% if site.data.experiences %}
 
-          <div class="resume-block" id="experience"></div>
+          <div class="resume-block" id="experience">
             <div class="resume-section">
               {% assign items = site.data.experiences %}
               {% for entry in items %}
@@ -62,12 +62,12 @@ layout: default
               {% endfor %}
             </div>
           </div>
-          
 
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const buttons = document.querySelectorAll(".resume-filter");
               const entries = document.querySelectorAll(".resume-entry");
+              const section = document.querySelector("#experience");
 
               if (!buttons.length || !entries.length) return;
 
@@ -78,23 +78,9 @@ layout: default
                   buttons.forEach(btn => btn.classList.remove("active"));
                   this.classList.add("active");
 
-                  const profile = document.querySelector("#about-profile");
-
-                  if (profile) {
-                    const rect = profile.getBoundingClientRect();
-                    const y = rect.bottom + window.pageYOffset - 110;
-                    window.scrollTo({ top: y, behavior: "smooth" });
+                  if (section) {
+                    section.scrollIntoView({ behavior: "smooth", block: "start" });
                   }
-
-                  // const section = document.querySelector(".resume-block");
-                  // if (section) {
-                  //   const y = section.getBoundingClientRect().top + window.pageYOffset - 65;
-                  //   const distance = Math.abs(window.pageYOffset - y);
-
-                  //   if (distance > 40) {
-                  //     window.scrollTo({ top: y, behavior: "smooth" });
-                  //   }
-                  // }
 
                   const visibleEntries = [];
 
@@ -125,7 +111,8 @@ layout: default
                 });
               });
             });
-          </script>            
+          </script>
+
           {% endif %}
       
           <!-- News -->
