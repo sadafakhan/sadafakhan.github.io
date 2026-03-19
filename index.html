@@ -119,7 +119,7 @@
         </header>
 
         <article>
-          <div class="profile float-right">
+          <div id="about-profile" class="profile float-right">
 
               <figure>
 
@@ -153,9 +153,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           </div>
 
           <!-- Custom section to create filterable list of experiences -->
+
+          <script>
+            if ("scrollRestoration" in history) {
+              history.scrollRestoration = "manual";
+            }
+
+            window.addEventListener("load", function () {
+              window.scrollTo(0, 0);
+            });
+          </script>
           
           
 
+          <div class="resume-block" id="experience"></div>
             <div class="resume-section">
               
               
@@ -616,30 +627,72 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 </div>
               
             </div>
+          </article>
+</div>
+          
 
-            <script>
-              document.addEventListener("DOMContentLoaded", function () {
-                const buttons = document.querySelectorAll(".resume-filter");
-                const entries = document.querySelectorAll(".resume-entry");
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const buttons = document.querySelectorAll(".resume-filter");
+              const entries = document.querySelectorAll(".resume-entry");
 
-                if (!buttons.length || !entries.length) return;
+              if (!buttons.length || !entries.length) return;
 
-                buttons.forEach(button => {
-                  button.addEventListener("click", function () {
-                    const filter = this.dataset.filter;
+              buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                  const filter = this.dataset.filter;
 
-                    buttons.forEach(btn => btn.classList.remove("active"));
-                    this.classList.add("active");
+                  buttons.forEach(btn => btn.classList.remove("active"));
+                  this.classList.add("active");
 
-                    entries.forEach(entry => {
-                      const tags = (entry.dataset.tags || "").split(" ").filter(Boolean);
-                      const visible = filter === "all" || tags.includes(filter);
-                      entry.style.display = visible ? "" : "none";
-                    });
+                  const profile = document.querySelector("#about-profile");
+
+                  if (profile) {
+                    const rect = profile.getBoundingClientRect();
+                    const y = rect.bottom + window.pageYOffset - 100;
+                    window.scrollTo({ top: y, behavior: "smooth" });
+                  }
+
+                  // const section = document.querySelector(".resume-block");
+                  // if (section) {
+                  //   const y = section.getBoundingClientRect().top + window.pageYOffset - 65;
+                  //   const distance = Math.abs(window.pageYOffset - y);
+
+                  //   if (distance > 40) {
+                  //     window.scrollTo({ top: y, behavior: "smooth" });
+                  //   }
+                  // }
+
+                  const visibleEntries = [];
+
+                  entries.forEach(entry => {
+                    const tags = (entry.dataset.tags || "").split(" ").filter(Boolean);
+                    const visible = filter === "all" || tags.includes(filter);
+
+                    entry.classList.remove("is-entering");
+                    entry.style.display = "none";
+
+                    if (visible) {
+                      visibleEntries.push(entry);
+                    }
                   });
+
+                  visibleEntries.forEach((entry, index) => {
+                    entry.style.display = "";
+                    entry.style.animationDelay = `${index * 45}ms`;
+                    entry.classList.add("is-entering");
+                  });
+
+                  setTimeout(() => {
+                    visibleEntries.forEach(entry => {
+                      entry.classList.remove("is-entering");
+                      entry.style.animationDelay = "";
+                    });
+                  }, 500);
                 });
               });
-            </script>
+            });
+          </script>            
           
       
           <!-- News -->
@@ -652,11 +705,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           
 
           <!-- Social -->
-        </article>
+        
 
 </div>
 
-    </div>
+    
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
