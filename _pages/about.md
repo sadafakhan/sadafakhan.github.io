@@ -26,7 +26,7 @@ Hi all! I'm Sadaf (/sʌd̪əf/), and I'm a linguist in the AI/ML space! I'm part
 
 In my free time, I draw, eat peaches, climb, and hike. 
 
-This website serves as a fleshed-out resume, documenting my past work history, academic reports, and personal projects/ tinkering. Filter below as desired! 
+This website serves as a fleshed-out resume, documenting my past work history, academic reports, and personal projects/ tinkering: 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
