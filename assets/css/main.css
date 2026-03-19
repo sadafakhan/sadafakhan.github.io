@@ -1129,6 +1129,10 @@ samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
 }
 
+#experience {
+  scroll-margin-top: 100px;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/

@@ -163,10 +163,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
               window.scrollTo(0, 0);
             });
           </script>
-          
+
           
 
-          <div class="resume-block" id="experience"></div>
+          <div class="resume-block" id="experience">
             <div class="resume-section">
               
               
@@ -627,14 +627,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 </div>
               
             </div>
-          </article>
-</div>
-          
+          </div>
 
           <script>
             document.addEventListener("DOMContentLoaded", function () {
               const buttons = document.querySelectorAll(".resume-filter");
               const entries = document.querySelectorAll(".resume-entry");
+              const section = document.querySelector("#experience");
 
               if (!buttons.length || !entries.length) return;
 
@@ -645,23 +644,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   buttons.forEach(btn => btn.classList.remove("active"));
                   this.classList.add("active");
 
-                  const profile = document.querySelector("#about-profile");
-
-                  if (profile) {
-                    const rect = profile.getBoundingClientRect();
-                    const y = rect.bottom + window.pageYOffset - 110;
-                    window.scrollTo({ top: y, behavior: "smooth" });
+                  if (section) {
+                    section.scrollIntoView({ behavior: "smooth", block: "start" });
                   }
-
-                  // const section = document.querySelector(".resume-block");
-                  // if (section) {
-                  //   const y = section.getBoundingClientRect().top + window.pageYOffset - 65;
-                  //   const distance = Math.abs(window.pageYOffset - y);
-
-                  //   if (distance > 40) {
-                  //     window.scrollTo({ top: y, behavior: "smooth" });
-                  //   }
-                  // }
 
                   const visibleEntries = [];
 
@@ -692,7 +677,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                 });
               });
             });
-          </script>            
+          </script>
+
           
       
           <!-- News -->
@@ -705,11 +691,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           
 
           <!-- Social -->
-        
+        </article>
 
 </div>
 
-    
+    </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
