@@ -142,3 +142,15 @@
     - Worked under Dr. Kathleen Grant at Oregon National Primate Research Center 
     - Studied endocrine correlates of ethanol in rhesus macaques
     - Contributed to research examining the relationship between temperament and chronic abstinence from ethanol
+
+ - title: Technical Skills
+   tags: [skills]
+   description: 
+    - | 
+      Languages: Python, SQL, JavaScript, HTML/CSS, R
+    - | 
+      Developer Tools: Git, VS Code, PyCharm, IntelliJ, Eclipse, TeamCity, Perforce
+    - | 
+      Libraries: pandas, NumPy, SciPy, Jupyter, Transformers, pytorch, tensorflow, NLTK, sklearn, Matplotlib, seaborn
+    - | 
+      Specialties: LLM evaluation, red teaming, data pipeline QA, reporting/briefing, annotation workflow tooling
