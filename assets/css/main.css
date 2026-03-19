@@ -857,8 +857,14 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
 .resume-entry {
   padding: 0.85rem 0 1rem 0;
   border-bottom: 1px solid var(--global-divider-color);
+  scroll-margin-top: 90px;
 }
 
+@media (max-width: 768px) {
+  .resume-entry {
+    scroll-margin-top: 145px;
+  }
+}
 .resume-entry-header,
 .resume-entry-subheader {
   display: flex;
@@ -1127,10 +1133,6 @@ pre,
 kbd,
 samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
-}
-
-#experience {
-  scroll-margin-top: 100px;
 }
 
 /*******************************************************************************
