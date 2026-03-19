@@ -35,7 +35,7 @@
           </button>
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+            <ul class="navbar-nav ml-auto">
 
               <!-- {%- for page in site.pages -%}
                 {% if page.permalink == '/' %}
@@ -51,6 +51,17 @@
                   {%- endif -%}
                 </a>
               </li> -->
+
+              {% if page.permalink == '/' %}
+              <li class="nav-item resume-filter-nav">
+                <div class="resume-filters navbar-filters">
+                  <button class="resume-filter active" data-filter="all">All</button>
+                  <button class="resume-filter" data-filter="employment">Employment</button>
+                  <button class="resume-filter" data-filter="education">Education</button>
+                  <button class="resume-filter" data-filter="research">Research</button>
+                </div>
+              </li>
+              {% endif %}
               
               {% if site.blog_nav_title %}
               <!-- Blog -->

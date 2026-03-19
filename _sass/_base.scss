@@ -198,6 +198,30 @@ blockquote {
   }
 }
 
+.navbar-filters {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.resume-filter-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .resume-filter {
+  padding: 0.2rem 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.navbar .navbar-nav {
+  align-items: center;
+}
+
 .navbar.navbar-light {
   a {
     &:hover {

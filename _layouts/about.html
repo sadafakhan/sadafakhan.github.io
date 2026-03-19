@@ -44,13 +44,6 @@ layout: default
           
           {% if site.data.experiences %}
 
-            <div class="resume-filters">
-              <button class="resume-filter active" data-filter="all">All</button>
-              <button class="resume-filter" data-filter="employment">Employment</button>
-              <button class="resume-filter" data-filter="education">Education</button>              
-              <button class="resume-filter" data-filter="research">Research</button>
-            </div>
-
             <div class="resume-section">
               {% assign items = site.data.experiences %}
               {% for entry in items %}
@@ -62,6 +55,8 @@ layout: default
               document.addEventListener("DOMContentLoaded", function () {
                 const buttons = document.querySelectorAll(".resume-filter");
                 const entries = document.querySelectorAll(".resume-entry");
+
+                if (!buttons.length || !entries.length) return;
 
                 buttons.forEach(button => {
                   button.addEventListener("click", function () {
