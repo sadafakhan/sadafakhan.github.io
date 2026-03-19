@@ -78,10 +78,6 @@ layout: default
                   buttons.forEach(btn => btn.classList.remove("active"));
                   this.classList.add("active");
 
-                  if (section) {
-                    section.scrollIntoView({ behavior: "smooth", block: "start" });
-                  }
-
                   const visibleEntries = [];
 
                   entries.forEach(entry => {
@@ -108,8 +104,63 @@ layout: default
                       entry.style.animationDelay = "";
                     });
                   }, 500);
+
+                  const firstVisibleEntry = visibleEntries[0];
+                  const target = firstVisibleEntry || document.querySelector("#experience");
+
+                  if (target) {
+                    const isMobile = window.innerWidth <= 768;
+                    const offset = isMobile ? 185 : 110;
+
+                    requestAnimationFrame(() => {
+                      requestAnimationFrame(() => {
+                        const y = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                        window.scrollTo({ top: y, behavior: "smooth" });
+                      });
+                    });
+                  }
                 });
               });
+
+              // buttons.forEach(button => {
+              //   button.addEventListener("click", function () {
+              //     const filter = this.dataset.filter;
+
+              //     buttons.forEach(btn => btn.classList.remove("active"));
+              //     this.classList.add("active");
+
+              //     if (section) {
+              //       section.scrollIntoView({ behavior: "smooth", block: "start" });
+              //     }
+
+              //     const visibleEntries = [];
+
+              //     entries.forEach(entry => {
+              //       const tags = (entry.dataset.tags || "").split(" ").filter(Boolean);
+              //       const visible = filter === "all" || tags.includes(filter);
+
+              //       entry.classList.remove("is-entering");
+              //       entry.style.display = "none";
+
+              //       if (visible) {
+              //         visibleEntries.push(entry);
+              //       }
+              //     });
+
+              //     visibleEntries.forEach((entry, index) => {
+              //       entry.style.display = "";
+              //       entry.style.animationDelay = `${index * 45}ms`;
+              //       entry.classList.add("is-entering");
+              //     });
+
+              //     setTimeout(() => {
+              //       visibleEntries.forEach(entry => {
+              //         entry.classList.remove("is-entering");
+              //         entry.style.animationDelay = "";
+              //       });
+              //     }, 500);
+              //   });
+              // });
             });
           </script>
 
