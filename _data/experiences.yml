@@ -28,6 +28,17 @@
     - Managed data harvesting pipeline for automatic speech processing block(s), supporting collection and validation of 200 hours across 7 languages
     - Created pipeline to produce and validate synthetic data as post-training data for Retrieval-Augmented Generation (RAG) models
 
+ - title: NLP Specialization
+   organization: DeepLearning.AI
+   year: 2023
+   tags: [education]
+   description: 
+      - <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/VEKMCXJTXPRR">certificate</a> 
+      - title: Relevant Coursework
+        contents: 
+          - NLP with Sequence Models
+          - NLP with Attention Models
+
  - title: Technical Writer
    organization: SecureAuth Corp.
    location: Irvine, CA
@@ -48,6 +59,23 @@
     - Increased abuse auto-flag rate in Smite by 35%, and reduced auto-flag turnaround time from 24h+ to 6h
     - Created reusable pipeline that processed, on average ~2M chat records/day across language identification, translation, and toxicity classification
 
+ - title: University of Washington
+   organization: M.Sc. in Computational Linguistics
+   location: Seattle, WA 
+   year: June 2021 – Dec. 2022
+   tags: [education, research]
+   description:
+    - 3.89 GPA, <a href="/assets/pdf/UW_transcript.pdf">transcript</a>
+    - title: Relevant Projects
+      contents:
+        - <a href="https://github.com/sadafakhan/pronunciation-scorer"> Interactive Pashto Pronunciation Feedback</a> 
+        - <a href="https://github.com/sadafakhan/sarcasm-detection-twit"> Sarcasm Detection in Tweets</a> 
+    - title: Relevant Coursework
+      contents: 
+        - Advanced Statistical Methods in NLP
+        - NLP Systems and Applications
+        - Speech Technologies and Endangered Languages
+ 
  - title: Research Assistant
    organization: The Wild Voice, Inc. 
    location: Los Angeles, CA
@@ -56,6 +84,34 @@
    description:
     - Researched and summarized existing linguistics studies for Bay's book <a href="https://www.penguinrandomhouse.com/books/667566/permission-to-speak-by-samara-bay/">Permission to Speak</a> on projecting authority
     - Developed interview questions for guests on <a href="https://podcasts.apple.com/us/podcast/permission-to-speak/id1491356006">iHeartRadio's podcast of the same name</a>
+
+ - title: Pomona College
+   organization: B.A. in Linguistics and Cognitive Science, concentration in Computer Science
+   location: Claremont, CA 
+   year: Aug. 2016 - May 2020
+   tags: [education, research]
+   description:
+    - 3.72 (cumulative), 3.87 (major) GPA, <a href="/assets/pdf/Pomona_transcript.pdf">transcript</a>
+
+    - title: > 
+        Linguistics Thesis: <a href="/assets/pdf/Zabaan.pdf">Zabaan; Vowel Drift from Classical Persian in Urdu and Tehrani Farsi</a>
+      contents: 
+        - Executed a phonological elicitation study examining how vowels /a/ and /a:/ from Classical Persian are pronounced in modernity by Urdu & Farsi speakers
+        - Gathered 15 hours of interview data using an H5 recorder in a soundbooth, processed data with Praat and R
+        - Found preliminary evidence that /a/ went to /æ/ in Farsi vs. /ə/ in Urdu, whereas /a:/ went to /ɒ/ in Farsi vs. /ɑ/ in Urdu, in line with <a href="https://www.academia.edu/3560311/Perso-Arabic_Loanwords_in_Hindustani_Part_II_Linguistic_Study"> prior findings</a>
+
+    - title: > 
+        Cognitive Science Thesis: <a href="/assets/pdf/Embedded_Recursion.pdf">Psychological Realities of Embedded Recursion</a>
+      contents: 
+        - Directed a self-paced reading study evaluating how the ability to parse recursive structures scales with types of recursion (center-embedded, tail-embedded, etc.)
+        - Gathered data through Amazon MTurk & Ibex Farm, processed data with R
+        - Results supported the notion that higher numbers of embeddings within center-embedded recursion causes a failure in parsing
+  
+    - title: Relevant Coursework  
+      contents: 
+        - Theory of Computation and Automata
+        - Advanced Phonology 
+        - Data Structures / Advanced Programming 
 
  - title: Research Assistant
    organization: Harvard University Laboratory of Developmental Studies
