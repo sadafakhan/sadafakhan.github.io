@@ -69,7 +69,7 @@
           </button>
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+            <ul class="navbar-nav ml-auto">
 
               <!-- -->
 
@@ -77,6 +77,17 @@
               <!-- <li class="nav-item active">
                 <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
               </li> -->
+
+              
+              <li class="nav-item resume-filter-nav">
+                <div class="resume-filters navbar-filters">
+                  <button class="resume-filter active" data-filter="all">All</button>
+                  <button class="resume-filter" data-filter="employment">Employment</button>
+                  <button class="resume-filter" data-filter="education">Education</button>
+                  <button class="resume-filter" data-filter="research">Research</button>
+                </div>
+              </li>
+              
               
               
 
@@ -143,13 +154,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Custom section to create filterable list of experiences -->
           
           
-
-            <div class="resume-filters">
-              <button class="resume-filter active" data-filter="all">All</button>
-              <button class="resume-filter" data-filter="employment">Employment</button>
-              <button class="resume-filter" data-filter="education">Education</button>              
-              <button class="resume-filter" data-filter="research">Research</button>
-            </div>
 
             <div class="resume-section">
               
@@ -578,6 +582,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
               document.addEventListener("DOMContentLoaded", function () {
                 const buttons = document.querySelectorAll(".resume-filter");
                 const entries = document.querySelectorAll(".resume-entry");
+
+                if (!buttons.length || !entries.length) return;
 
                 buttons.forEach(button => {
                   button.addEventListener("click", function () {
