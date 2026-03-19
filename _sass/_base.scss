@@ -873,13 +873,19 @@ pre {
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: 0.75rem 0 1.25rem 0;
+  align-items: center;
 }
 
 .resume-filter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--global-divider-color);
   background: transparent;
   border-radius: 999px;
-  padding: 0.25rem 0.75rem;
+  padding: 0.35rem 1rem;
+  min-height: 2.5rem;
+  line-height: 1;
   cursor: pointer;
 }
 
@@ -936,6 +942,12 @@ pre {
   margin-left: 1rem;
 }
 
+/* =========================================
+   Global LaTeX / resume-like typography only
+   Keeps width, padding, image size, and text color
+   ========================================= */
+
+/* ---- Font faces ---- */
 @font-face {
   font-family: "Latin Modern Roman";
   src: url("/assets/fonts/lm/lmroman10-regular.otf") format("opentype");
@@ -964,6 +976,198 @@ pre {
   font-style: italic;
 }
 
-html, body {
+/* ---- Global typography ---- */
+html,
+body,
+body {
   font-family: "Latin Modern Roman", serif;
+}
+
+/* keep your existing color; only tighten typography */
+html,
+body {
+  font-size: 17px;
+  line-height: 1.38;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Paragraphs ---- */
+p {
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+/* ---- Headings ---- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.card-title {
+  font-family: "Latin Modern Roman", serif !important;
+  line-height: 1.18;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.18rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+/* ---- Subtitle / descriptions ---- */
+.post-header .desc,
+.post-description {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+/* ---- Links ---- */
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* ---- Lists ---- */
+ul,
+ol {
+  margin-top: 0.2rem;
+  margin-bottom: 0.7rem;
+  padding-left: 1.35rem;
+}
+
+li {
+  line-height: 1.32;
+  margin-bottom: 0.16rem;
+}
+
+/* ---- Cards: remove “web card” feel without changing spacing much ---- */
+.card {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  line-height: 1.35;
+}
+
+/* ---- Resume section tuning ---- */
+.resume-section {
+  font-size: 1.01rem;
+  line-height: 1.28;
+}
+
+.resume-section-title {
+  font-size: 1.32rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.1rem;
+}
+
+.resume-filter {
+  font-family: "Latin Modern Roman", serif;
+}
+
+.resume-entry {
+  padding: 0.5rem 0 0.65rem 0;
+}
+
+.resume-entry-header,
+.resume-entry-subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.resume-entry-header {
+  margin-bottom: 0.02rem;
+}
+
+.resume-entry-subheader {
+  margin-bottom: 0.18rem;
+}
+
+.resume-entry-title {
+  font-size: 1.16rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.resume-entry-year,
+.resume-entry-location {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.resume-entry-organization,
+.resume-entry-location {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.15;
+}
+
+.resume-entry-bullets {
+  margin: 0.1rem 0 0 1.1rem;
+  padding-left: 0.45rem;
+}
+
+.resume-entry-bullets li {
+  margin-bottom: 0.16rem;
+  line-height: 1.28;
+}
+
+.resume-entry-subsection-title {
+  font-weight: 700;
+}
+
+.resume-entry-sub-bullets {
+  margin-top: 0.14rem;
+  margin-left: 0.9rem;
+  padding-left: 0.42rem;
+}
+
+/* ---- Keep code monospace ---- */
+code,
+pre,
+kbd,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
 }
